@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace Trifecta.SemanticKernelRedis
 {
-    internal class RedisMemoryStore : IMemoryStore
+    public class RedisMemoryStore : IMemoryStore
     {
         ConnectionMultiplexer _redis;
         IDatabase _store;
